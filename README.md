@@ -61,6 +61,5 @@ python prepare_mgf.py input.mgf output_deepmass2.mgf --ionmode positive
 
 输出 MGF 可直接加载到 DeepMASS2。缺失或重复 `FEATURE_ID`、质量字段冲突时会报错；已有输出文件不覆盖，请换一个文件名。
 
-此前已验证：3616 条谱图通过 DeepMASS2 GUI v0.99.1 / matchms 0.17.0 导入，名称全部对应原始 Feature ID，105344 行峰数据不变。12 项测试通过。
 
 工具版本 1.1.0 · MIT License
